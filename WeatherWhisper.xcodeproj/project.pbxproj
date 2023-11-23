@@ -53,9 +53,9 @@
 		182D87A72B0F233E001D8741 /* WeatherWhisper */ = {
 			isa = PBXGroup;
 			children = (
+				182D87B92B0F2FDE001D8741 /* Views */,
 				182D87B62B0F2749001D8741 /* Manager */,
 				182D87A82B0F233E001D8741 /* WeatherWhisperApp.swift */,
-				182D87AA2B0F233E001D8741 /* ContentView.swift */,
 				182D87AC2B0F2340001D8741 /* Assets.xcassets */,
 				182D87AE2B0F2340001D8741 /* Preview Content */,
 			);
@@ -76,6 +76,14 @@
 				182D87B72B0F2761001D8741 /* LocationManager.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		182D87B92B0F2FDE001D8741 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				182D87AA2B0F233E001D8741 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
