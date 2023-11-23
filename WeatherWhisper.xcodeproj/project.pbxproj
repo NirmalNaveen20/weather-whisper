@@ -11,6 +11,7 @@
 		182D87AB2B0F233E001D8741 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D87AA2B0F233E001D8741 /* ContentView.swift */; };
 		182D87AD2B0F2340001D8741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182D87AC2B0F2340001D8741 /* Assets.xcassets */; };
 		182D87B02B0F2340001D8741 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182D87AF2B0F2340001D8741 /* Preview Assets.xcassets */; };
+		182D87B82B0F2761001D8741 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D87B72B0F2761001D8741 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		182D87AA2B0F233E001D8741 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		182D87AC2B0F2340001D8741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182D87AF2B0F2340001D8741 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		182D87B72B0F2761001D8741 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		182D87A72B0F233E001D8741 /* WeatherWhisper */ = {
 			isa = PBXGroup;
 			children = (
+				182D87B62B0F2749001D8741 /* Manager */,
 				182D87A82B0F233E001D8741 /* WeatherWhisperApp.swift */,
 				182D87AA2B0F233E001D8741 /* ContentView.swift */,
 				182D87AC2B0F2340001D8741 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				182D87AF2B0F2340001D8741 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		182D87B62B0F2749001D8741 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				182D87B72B0F2761001D8741 /* LocationManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				182D87AB2B0F233E001D8741 /* ContentView.swift in Sources */,
 				182D87A92B0F233E001D8741 /* WeatherWhisperApp.swift in Sources */,
+				182D87B82B0F2761001D8741 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +292,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +322,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
