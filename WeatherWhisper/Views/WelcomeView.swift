@@ -23,6 +23,9 @@ struct WelcomeView: View {
             LocationButton(.shareCurrentLocation) {
                 locationManager.requestLocation()
             }
+            .cornerRadius(30)
+            .symbolVariant(/*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+            .foregroundColor(.white)
         }
     }
 }
