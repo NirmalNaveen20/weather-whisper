@@ -10,6 +10,7 @@ import CoreLocationUI
 
 struct WelcomeView: View {
     @EnvironmentObject var locationManager: LocationManager
+    
     var body: some View {
         VStack {
             VStack(spacing: 20) {
@@ -27,6 +28,7 @@ struct WelcomeView: View {
             .symbolVariant(/*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
             .foregroundColor(.white)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
