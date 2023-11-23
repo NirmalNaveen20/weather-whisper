@@ -11,12 +11,10 @@ struct ContentView: View {
     @StateObject var locationManager = LocationManager()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            WelcomeView().environmentObject(locationManager)
         }
-        .padding()
+        .background(Color(hue: 0.656, saturation: 0.787, brightness: 0.354))
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }
 
